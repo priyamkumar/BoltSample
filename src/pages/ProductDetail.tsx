@@ -49,10 +49,10 @@ const ProductDetail = () => {
           price: 49.99 + (productId * 10),
           category: ['electronics', 'home', 'fashion', 'accessories'][productId % 4],
           rating: 3.5 + (Math.random() * 1.5),
-          image: `https://images.pexels.com/photos/${310000 + (productId * 223)}/pexels-photo-${310000 + (productId * 223)}.jpeg`,
+          image: `https://images.unsplash.com/photo-1612528443702-f6741f70a049?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`,
           additionalImages: [
-            `https://images.pexels.com/photos/${310000 + (productId * 223 + 50)}/pexels-photo-${310000 + (productId * 223 + 50)}.jpeg`,
-            `https://images.pexels.com/photos/${310000 + (productId * 223 + 100)}/pexels-photo-${310000 + (productId * 223 + 100)}.jpeg`,
+            `https://images.unsplash.com/photo-1612528443702-f6741f70a049?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`,
+            `https://images.unsplash.com/photo-1612528443702-f6741f70a049?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`,
           ],
           specs: {
             'Dimensions': '10" x 6" x 4"',
