@@ -90,8 +90,8 @@ const Home = () => {
         </div>
 
         {/* Abstract shapes */}
-        <div className="hidden lg:block absolute top-32 right-10 w-64 h-64 bg-primary-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
-        <div className="hidden lg:block absolute bottom-10 left-20 w-72 h-72 bg-accent-light rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
+        <div className="hidden lg:block absolute top-32 right-10 w-64 h-64 bg-primary-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 pointer-events-none"></div>
+        <div className="hidden lg:block absolute bottom-10 left-20 w-72 h-72 bg-accent-light rounded-full mix-blend-multiply filter blur-3xl opacity-20 pointer-events-none"></div>
       </section>
 
       {/* Features Section */}
